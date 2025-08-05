@@ -5,6 +5,7 @@ class SideMenuData {
   final menuItems = [
     MenuModel(title: 'Home', icon: Icons.home),
     MenuModel(title: 'Profile', icon: Icons.person),
+    MenuModel(title: 'Workouts', icon: Icons.fitness_center),
     MenuModel(title: 'Settings', icon: Icons.settings),
     MenuModel(title: 'Notifications', icon: Icons.notifications),
     MenuModel(title: 'Help', icon: Icons.help),

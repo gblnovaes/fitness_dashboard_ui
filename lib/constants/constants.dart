@@ -4,5 +4,6 @@ const cardBackgroundColor = Color(0xFF21222D);
 const primaryColor = Color(0xFF2697FF);
 const secondaryColor = Color(0xFFFFFFFF);
 const backgroundColor = Color(0xFF15131c);
-const selectionColor = Color(0xFF88b2ac);
+const selectionColor = Color(0xFF88b2AC);
+
 const defautlPadding = 20.0;
