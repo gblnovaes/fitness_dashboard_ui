@@ -1,14 +1,9 @@
 import 'package:fitness_dashboard_ui/constants/constants.dart';
 import 'package:flutter/material.dart';
 
-class HeaderWidget extends StatefulWidget {
+class HeaderWidget extends StatelessWidget {
   const HeaderWidget({super.key});
 
-  @override
-  State<HeaderWidget> createState() => _HeaderWidgetState();
-}
-
-class _HeaderWidgetState extends State<HeaderWidget> {
   @override
   Widget build(BuildContext context) {
     return Expanded(

@@ -10,13 +10,15 @@ class ActivityDetailsCard extends StatelessWidget {
     final healtDetails = HealthDetails();
 
     return GridView.builder(
+      scrollDirection: Axis.vertical,
       itemCount: healtDetails.healthData.length,
       shrinkWrap: true,
-      physics: const ScrollPhysics(),
+      primary: false,
+      physics: const ScrollPhysics(parent: NeverScrollableScrollPhysics()),
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 4,
-        crossAxisSpacing: 15,
-        mainAxisSpacing: 12,
+        crossAxisSpacing: 10.0,
+        mainAxisSpacing: 4.0,
       ),
       itemBuilder: (context, index) => CustomCardWidget(
         child: Column(
@@ -30,7 +32,7 @@ class ActivityDetailsCard extends StatelessWidget {
             ),
 
             Padding(
-              padding: const EdgeInsets.only(top: 15, bottom: 4.0),
+              padding: const EdgeInsets.only(top: 10.0, bottom: 5.0),
               child: Text(
                 healtDetails.healthData[index].value,
                 style: TextStyle(
