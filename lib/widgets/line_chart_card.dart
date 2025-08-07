@@ -17,7 +17,7 @@ class LineChartCard extends StatelessWidget {
         ),
 
         AspectRatio(
-          aspectRatio: 16 / 4,
+          aspectRatio: 16 / 3,
           child: LineChart(
             LineChartData(
               lineTouchData: LineTouchData(handleBuiltInTouches: true),

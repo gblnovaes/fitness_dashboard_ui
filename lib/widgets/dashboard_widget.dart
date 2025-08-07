@@ -12,14 +12,15 @@ class DashboardWidget extends StatelessWidget {
     return SafeArea(
       child: Column(
         children: [
-          SizedBox(height: 18),
+          SizedBox(height: 8),
           HeaderWidget(),
-          SizedBox(height: 18),
+          SizedBox(height: 16),
           BarGraphWidget(),
-          SizedBox(height: 18),
+          SizedBox(height: 16),
           ActivityDetailsCard(),
           SizedBox(height: 18),
           LineChartCard(),
+          SizedBox(height: 8),
         ],
       ),
     );

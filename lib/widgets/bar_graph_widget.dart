@@ -18,7 +18,7 @@ class BarGraphWidget extends StatelessWidget {
         shrinkWrap: true,
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 3,
-          crossAxisSpacing: 15,
+          crossAxisSpacing: 10,
           mainAxisSpacing: 120,
           childAspectRatio: 5 / 4,
         ),
